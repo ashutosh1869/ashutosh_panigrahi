@@ -36,8 +36,8 @@ li{
     
 }
 header{
-    background-color: black;
-    /* color: white; */
+    background-color: rgb(23, 19, 19);
+    color: white;
     
     
     font-style:oblique;
@@ -86,7 +86,11 @@ header{
     display: flex;
     display: inline-flexbox;
 } 
-
+.domain{
+    background-color: rgb(23, 19, 19);
+    color: #fff;
+    width:100%;
+}
 
 .wrapper .button{
     display: inline-block;
@@ -149,13 +153,13 @@ img{
     height: 100%;
     /* background: url("bg1.jpg");
     background-attachment: fixed; */
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.8rem;
-    
-    font-family:'Alkatra', cursive
-    ,'Times New Roman', Times, serif;
+    background-color: rgb(255, 224, 200);
+    color: black;
+    font-family:'Times New Roman', Times, serif;
     /* color: white; */
-    font-weight: 1000;
+    font-weight: 600;
     letter-spacing: .2rem;
 }
 /* img.about{
@@ -218,6 +222,40 @@ img.open,img.web,img.standup{
     padding-top: 5vh;
     
 }
+.projects{
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+
+    background-color: rgb(23, 19, 19);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.projects .project_container{
+    display: flex;
+    gap:8px;
+
+}
+.projects .project{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.project a{
+    transition: all 1.5s;
+    cursor: pointer;
+}
+.project a:hover{
+    transform: scale(1.1);
+}
+.projects .project img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
 
 /* .vssut{
     width: 1000px;
@@ -246,7 +284,7 @@ img.gmail,img.insta,img.linkedin,img.git,img.twitter{
 }
 
 .footer{
-    background-color:black;
+    background-color: rgb(23, 19, 19);
     padding: 2vh 0vw;
     display: flex;
     justify-content: center;
@@ -321,6 +359,9 @@ img.gmail,img.insta,img.linkedin,img.git,img.twitter{
         padding-left: 3%;
     
     } 
+    header{
+        color: bisque;
+    }
     .container,header,footer{
         background-size: 11.5rem;
     }
